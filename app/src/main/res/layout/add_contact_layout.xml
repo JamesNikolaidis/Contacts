@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:id="@+id/Contact_Layout">
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textSize="26sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/text_view_shape"
+        android:text="Name " />
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contact Name add here"
+        android:textSize="26dp"
+        android:id="@+id/Name_Edit_Text"
+        android:padding="5dp"
+        android:gravity="center"
+        android:background="@drawable/edit_text_shape"/>
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textSize="26sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/text_view_shape"
+        android:text="Telephone" />
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contact Tel add here"
+        android:textSize="26dp"
+        android:id="@+id/Telephone_Edit_Text"
+        android:padding="5dp"
+        android:gravity="center"
+        android:background="@drawable/edit_text_shape"/>
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+
+</LinearLayout>

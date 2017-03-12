@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/edit_text_shape">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="14dp"
+        />
+
+    <TextView
+        android:id="@+id/NameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="Name"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:background="@drawable/text_view_shape"
+        android:padding="6dp"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Telephone"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_alignBottom="@+id/TelTextView"
+     />
+
+
+    <TextView
+        android:id="@+id/TelTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Tel"
+        android:textSize="20sp"
+        android:background="@drawable/text_view_shape"
+        android:layout_marginBottom="6dp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:padding="6dp"
+        />
+
+
+</LinearLayout>
